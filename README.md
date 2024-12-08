@@ -1,0 +1,1 @@
+This repository demonstrates a common data truncation error in COBOL programs.  The bug arises from moving data from one area to another with a shorter PICTURE clause. The solution shows how to prevent the truncation by properly matching PICTURE clauses or using explicit size checks before moving data.
